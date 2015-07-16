@@ -886,3 +886,29 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+.footer-box p{
+    margin: 14px 0;
+}
+
+.footer-box p, .footer-box a{
+      font-family: 'Marvel';
+      font-size: 1.8rem;
+}
+
+.footer-box a, .footer-box span{
+    color: #e2c254;
+}
+
+.footer-box h3{
+      font-family: 'Lobster';
+      text-transform: capitalize;
+}
+
+.n-social{
+    background: #e2c254 !important;
+}
+
+.n-social:hover{
+    background: #2a2a2a !important;
+}
