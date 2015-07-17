@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #e2c254;
 }
 
 a:hover,
@@ -648,6 +648,14 @@ section h3.section-subheading {
     }
 }
 
+.team {
+    background-color: #2a2a2a;
+}
+
+.team-title {
+    color: #e2c254;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -659,13 +667,20 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
+    color: #e2c254;
+    font-family: 'Ubuntu' sans-serif;
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
 }
 
 .team-member p {
+    font-family: 'marvel' sans-serif;
     margin-top: 0;
+}
+
+.text-white {
+    color: #fff;
 }
 
 aside.clients img {
@@ -770,7 +785,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #e2c254;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -779,7 +794,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #222;
 }
 
 .btn:focus,
